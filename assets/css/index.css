@@ -58,5 +58,15 @@ body {
 .main-info .row .col-img-container {
   padding: 0;
 }
+.main-info .row .col-partnership {
+  padding-left: 0;
+}
+.main-info .action-list {
+  padding-inline-start: 16px;
+  margin: 32px 0;
+}
+.main-info .partnership-kodigo {
+  margin-top: 34px;
+}
 
 /*# sourceMappingURL=index.css.map */
