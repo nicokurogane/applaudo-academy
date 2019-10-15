@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "sass --watch assets/scss/index.scss assets/css/index.css"
+    "style": "sass --watch assets/scss/index.scss assets/css/index.css",
+    "netlify-build": "sass assets/scss/index.scss assets/css/index.css"
   },
   "author": "",
   "license": "ISC",
