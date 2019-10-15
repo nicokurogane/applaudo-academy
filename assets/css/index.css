@@ -1,6 +1,30 @@
-.title {
-  font-size: 3rem;
-  color: #0bb8e0;
+@font-face {
+  font-family: "Avenir Next LT Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Regular"), url("/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next LT Pro Regular";
+}
+
+.header {
+  background: #011625;
+}
+.header .content {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .content .title-header {
+  color: #ff4040;
+}
+.header .content .img-header {
+  width: 517.31px;
+  height: 320px;
 }
 
 /*# sourceMappingURL=index.css.map */
