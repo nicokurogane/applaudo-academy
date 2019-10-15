@@ -16,6 +16,10 @@ body {
   width: 228.74px;
   height: 54.81px;
 }
+.header .powered-by-img {
+  width: 239px;
+  height: 27px;
+}
 .header .content {
   color: #ffff;
   display: flex;
