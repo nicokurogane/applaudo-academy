@@ -5,26 +5,48 @@
   src: local("Avenir Next LT Pro Regular"), url("/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff");
 }
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Avenir Next LT Pro Regular";
 }
 
 .header {
+  padding: 32px;
   background: #011625;
 }
+.header .academy-logo {
+  width: 228.74px;
+  height: 54.81px;
+}
 .header .content {
-  color: white;
+  color: #ffff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 96px 12px 0 12px;
+  /*   .col {
+    background-color: #f5b44e;
+  }*/
 }
 .header .content .title-header {
   color: #ff4040;
+  font-size: 70px;
+  line-height: 104px;
+  letter-spacing: -0.05em;
+}
+.header .content .paragraph {
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 90px;
+}
+.header .content .header-button {
+  background-color: #ff4040;
+  border-color: #ff4040;
+  width: 150px;
+  height: 40px;
 }
 .header .content .img-header {
   width: 517.31px;
   height: 320px;
+  margin-left: 96px;
 }
 
 /*# sourceMappingURL=index.css.map */

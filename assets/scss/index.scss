@@ -9,26 +9,53 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Avenir Next LT Pro Regular";
 }
 
 .header {
+  padding: 32px;
   background: $backgroundColor;
+
+  .academy-logo {
+    width: 228.74px;
+    height: 54.81px;
+  }
+
   .content {
-    color: white;
+    color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 96px 12px 0 12px;
+
+    /*   .col {
+      background-color: #f5b44e;
+    }*/
 
     .title-header {
       color: $primaryColor;
+      font-size: 70px;
+      line-height: 104px;
+      letter-spacing: -0.05em;
+    }
+
+    .paragraph {
+      font-size: 25px;
+      line-height: 40px;
+      margin-bottom: 90px;
+    }
+
+    .header-button {
+      background-color: $primaryColor;
+      border-color: $primaryColor;
+      width: 150px;
+      height: 40px;
     }
 
     .img-header {
       width: 517.31px;
       height: 320px;
+      margin-left: 96px;
     }
   }
 }
