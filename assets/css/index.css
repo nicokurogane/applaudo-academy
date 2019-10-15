@@ -22,9 +22,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 96px 12px 0 12px;
-  /*   .col {
-    background-color: #f5b44e;
-  }*/
 }
 .header .content .title-header {
   color: #ff4040;
@@ -47,6 +44,19 @@ body {
   width: 517.31px;
   height: 320px;
   margin-left: 96px;
+}
+
+.main-info .highlight {
+  font-weight: 800;
+}
+.main-info .row {
+  margin: 0;
+}
+.main-info .row .col-info-container {
+  margin: 26px 0 0 0;
+}
+.main-info .row .col-img-container {
+  padding: 0;
 }
 
 /*# sourceMappingURL=index.css.map */

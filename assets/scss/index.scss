@@ -28,10 +28,6 @@ body {
     align-items: center;
     margin: 96px 12px 0 12px;
 
-    /*   .col {
-      background-color: #f5b44e;
-    }*/
-
     .title-header {
       color: $primaryColor;
       font-size: 70px;
@@ -56,6 +52,22 @@ body {
       width: 517.31px;
       height: 320px;
       margin-left: 96px;
+    }
+  }
+}
+
+.main-info {
+  .highlight {
+    font-weight: 800;
+  }
+  .row {
+    margin: 0;
+    .col-info-container {
+      margin: 26px 0 0 0;
+    }
+
+    .col-img-container {
+      padding: 0;
     }
   }
 }
