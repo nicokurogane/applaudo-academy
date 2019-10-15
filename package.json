@@ -1,0 +1,16 @@
+{
+  "name": "applaudo-academy",
+  "version": "1.0.0",
+  "description": "landing page for trainee program info",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch assets/scss/index.scss assets/css/index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "sass": "^1.23.0"
+  }
+}
