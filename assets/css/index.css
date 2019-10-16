@@ -197,6 +197,12 @@ body {
   height: 375px;
   margin-top: 42px;
 }
+.footer-container .powered-by-container {
+  padding-top: 46px;
+}
+.footer-container .powered-by-container .footer-logo {
+  width: 200px;
+}
 
 @media (min-width: 992px) {
   .main-info {

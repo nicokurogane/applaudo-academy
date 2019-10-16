@@ -217,6 +217,13 @@ body {
   color: $white;
   height: 375px;
   margin-top: 42px;
+
+  .powered-by-container {
+    padding-top: 46px;
+    .footer-logo {
+      width: 200px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
