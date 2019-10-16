@@ -8,6 +8,38 @@
     url("/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Avenir Next LT Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Bold"),
+    url("/assets/fonts/AvenirNextLTPro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Demi";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Demi"),
+    url("/assets/fonts/AvenirNextLTPro-Demi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Heavy"),
+    url("/assets/fonts/AvenirNextLTPro-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro Ultra Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next LT Pro Ultra Light"),
+    url("/assets/fonts/AvenirNextLTPro-UltLt.woff") format("woff");
+}
+
 body {
   font-family: "Avenir Next LT Pro Regular";
 }
@@ -36,6 +68,7 @@ body {
 
     .title-header {
       color: $primaryColor;
+      font-family: "Avenir Next LT Pro Bold";
       font-size: 70px;
       line-height: 104px;
       letter-spacing: -0.05em;
@@ -116,5 +149,6 @@ body {
   .sponsors-container {
     color: $primaryColor;
     padding: 146px;
+    font-family: "Avenir Next LT Pro Heavy";
   }
 }
