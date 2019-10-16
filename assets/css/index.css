@@ -74,4 +74,22 @@ body {
   margin-top: 34px;
 }
 
+.sponsors-container {
+  background-color: #011625;
+  color: #ffff;
+  margin-top: 68px;
+  padding: 146px;
+}
+.sponsors-container .sponsors-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsors-container .brand {
+  margin: 45px 0;
+}
+
 /*# sourceMappingURL=index.css.map */
