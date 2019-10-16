@@ -212,6 +212,13 @@ body {
   }
 }
 
+.footer-container {
+  background-color: $backgroundColor;
+  color: $white;
+  height: 375px;
+  margin-top: 42px;
+}
+
 @media (min-width: 992px) {
   .main-info {
     margin: 80px 200px;

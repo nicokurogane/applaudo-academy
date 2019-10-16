@@ -191,6 +191,13 @@ body {
   border: #ffff 1px solid;
 }
 
+.footer-container {
+  background-color: #011625;
+  color: #ffff;
+  height: 375px;
+  margin-top: 42px;
+}
+
 @media (min-width: 992px) {
   .main-info {
     margin: 80px 200px;
