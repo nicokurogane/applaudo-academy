@@ -1,0 +1,12 @@
+@mixin buttonWithHover($primaryButtonColor, $secondaryButtonColor) {
+  width: 200px;
+  color: $primaryButtonColor;
+  background-color: $secondaryButtonColor;
+  border: $primaryButtonColor 1px solid;
+
+  &:hover {
+    color: $secondaryButtonColor;
+    background-color: $primaryButtonColor;
+    border: $secondaryButtonColor 1px solid;
+  }
+}

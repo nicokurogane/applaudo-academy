@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixin";
 
 @font-face {
   font-family: "Avenir Next LT Pro Regular";
@@ -48,6 +49,8 @@ body {
   color: $backgroundColor;
   font-family: "Avenir Next LT Pro Bold";
 }
+
+/* este luego lo pasamos al mixin*/
 
 .header {
   padding: 32px;
@@ -182,14 +185,29 @@ body {
     }
   }
 
-  .description {
-    margin: 0 32px;
-    .action-title {
-      color: $backgroundColor;
-      font-family: "Avenir Next LT Pro Bold";
-      font-size: 22px;
-      line-height: 26px;
-      align-self: flex-start;
+  .action-sub-section {
+    margin-top: 80px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+    .description {
+      margin: 0 32px;
+      .action-title {
+        color: $backgroundColor;
+        font-family: "Avenir Next LT Pro Bold";
+        font-size: 22px;
+        line-height: 26px;
+        align-self: flex-start;
+      }
+
+      .primary-button {
+        @include buttonWithHover($white, $primaryColor);
+      }
+
+      .secondary-button {
+        @include buttonWithHover($primaryColor, $white);
+      }
     }
   }
 }

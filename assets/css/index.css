@@ -37,6 +37,7 @@ body {
   font-family: "Avenir Next LT Pro Bold";
 }
 
+/* este luego lo pasamos al mixin*/
 .header {
   padding: 32px;
   background: #011625;
@@ -151,15 +152,43 @@ body {
 .what-you-can-do-container .row .action-img {
   margin: 45px 0 36px 0;
 }
-.what-you-can-do-container .description {
+.what-you-can-do-container .action-sub-section {
+  margin-top: 80px;
+}
+.what-you-can-do-container .action-sub-section:first-child {
+  margin-top: 0;
+}
+.what-you-can-do-container .action-sub-section .description {
   margin: 0 32px;
 }
-.what-you-can-do-container .description .action-title {
+.what-you-can-do-container .action-sub-section .description .action-title {
   color: #011625;
   font-family: "Avenir Next LT Pro Bold";
   font-size: 22px;
   line-height: 26px;
   align-self: flex-start;
+}
+.what-you-can-do-container .action-sub-section .description .primary-button {
+  width: 200px;
+  color: #ffff;
+  background-color: #ff4040;
+  border: #ffff 1px solid;
+}
+.what-you-can-do-container .action-sub-section .description .primary-button:hover {
+  color: #ff4040;
+  background-color: #ffff;
+  border: #ff4040 1px solid;
+}
+.what-you-can-do-container .action-sub-section .description .secondary-button {
+  width: 200px;
+  color: #ff4040;
+  background-color: #ffff;
+  border: #ff4040 1px solid;
+}
+.what-you-can-do-container .action-sub-section .description .secondary-button:hover {
+  color: #ffff;
+  background-color: #ff4040;
+  border: #ffff 1px solid;
 }
 
 @media (min-width: 992px) {
