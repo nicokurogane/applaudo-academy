@@ -19,6 +19,7 @@ body {
 .header .powered-by-img {
   width: 239px;
   height: 27px;
+  margin-left: 12px;
 }
 .header .content {
   color: #ffff;
