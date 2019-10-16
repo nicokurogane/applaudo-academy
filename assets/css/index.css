@@ -148,6 +148,19 @@ body {
 .what-you-can-do-container .row {
   margin: 0;
 }
+.what-you-can-do-container .row .action-img {
+  margin: 45px 0 36px 0;
+}
+.what-you-can-do-container .description {
+  margin: 0 32px;
+}
+.what-you-can-do-container .description .action-title {
+  color: #011625;
+  font-family: "Avenir Next LT Pro Bold";
+  font-size: 22px;
+  line-height: 26px;
+  align-self: flex-start;
+}
 
 @media (min-width: 992px) {
   .main-info {

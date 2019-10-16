@@ -177,6 +177,20 @@ body {
   }
   .row {
     margin: 0;
+    .action-img {
+      margin: 45px 0 36px 0;
+    }
+  }
+
+  .description {
+    margin: 0 32px;
+    .action-title {
+      color: $backgroundColor;
+      font-family: "Avenir Next LT Pro Bold";
+      font-size: 22px;
+      line-height: 26px;
+      align-self: flex-start;
+    }
   }
 }
 
