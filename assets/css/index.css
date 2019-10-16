@@ -72,8 +72,8 @@ body {
 }
 .header .content .img-header {
   width: 517.31px;
-  height: 320px;
-  margin-left: 96px;
+  height: 380px;
+  margin-left: 56px;
 }
 
 .main-info .highlight {
@@ -111,6 +111,23 @@ body {
   line-height: 40px;
 }
 .sponsors-container .brand {
+  margin: 45px 0;
+}
+
+.working-brands-container {
+  background-color: #011625;
+  color: #ffff;
+  margin-top: 68px;
+  padding: 146px 76px;
+}
+.working-brands-container .title {
+  color: #ff4040;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  font-family: "Avenir Next LT Pro Heavy";
+}
+.working-brands-container .brand {
   margin: 45px 0;
 }
 
