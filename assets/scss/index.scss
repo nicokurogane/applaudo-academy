@@ -95,18 +95,26 @@ body {
   background-color: $backgroundColor;
   color: $white;
   margin-top: 68px;
-  padding: 146px;
+  padding: 146px 76px;
 
   .sponsors-title {
     font-size: 32px;
     font-weight: 600;
     line-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .brand {
     margin: 45px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-info {
+    margin: 80px 200px;
+  }
+
+  .sponsors-container {
+    color: $primaryColor;
+    padding: 146px;
   }
 }
