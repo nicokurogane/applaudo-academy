@@ -140,6 +140,7 @@ body {
   padding: 10px 40px;
   position: relative;
   width: 50%;
+  background-color: darkblue;
   /* The circles on the timeline */
 }
 .make-it-happen .timeline .time-line-container .spot {
@@ -166,12 +167,10 @@ body {
   justify-content: center;
   left: -10px;
 }
-.make-it-happen .timeline .time-line-container:nth-child(n) {
-  padding-left: 62px;
-}
 .make-it-happen .timeline .time-line-container .content {
   color: white;
   background-color: #ff4040;
+  width: 420px;
   height: 200px;
 }
 .make-it-happen .timeline .time-line-container .content .title {
@@ -184,6 +183,12 @@ body {
   font-size: 18px;
   line-height: 32px;
   height: 100%;
+}
+.make-it-happen .timeline .time-line-container .content:nth-child(even) {
+  margin-left: 99px;
+}
+.make-it-happen .timeline .time-line-container .content:nth-child(odd) {
+  margin-left: 14px;
 }
 .make-it-happen .left {
   left: 0;
