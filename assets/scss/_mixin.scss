@@ -15,7 +15,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+
   background-color: $mediumGray;
   top: 15px;
   border-radius: 50%;
@@ -23,9 +23,9 @@
   display: flex;
   justify-content: center;
   @if ($reverse and not $isMobile) {
-    left: -8px;
+    left: -10px;
   } @else if(not $reverse and not $isMobile) {
-    right: -17px;
+    right: -14px;
   } @else if(not $reverse and $isMobile) {
     left: 20px;
   } @else {
