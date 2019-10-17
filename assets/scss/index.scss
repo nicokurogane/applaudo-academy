@@ -50,8 +50,6 @@ body {
   font-family: "Avenir Next LT Pro Bold";
 }
 
-/* este luego lo pasamos al mixin*/
-
 .header {
   padding: 32px;
   background: $backgroundColor;
@@ -235,6 +233,14 @@ body {
     margin-top: 36px;
     .social-media {
       margin-left: 24px;
+    }
+  }
+
+  .test-button-container {
+    background-color: $primaryColor;
+
+    .button {
+      @include buttonEffect1;
     }
   }
 }

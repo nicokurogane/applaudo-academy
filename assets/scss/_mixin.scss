@@ -10,3 +10,75 @@
     border: $secondaryButtonColor 1px solid;
   }
 }
+
+@mixin buttonWithHoverInsetEffect {
+  //- FONT
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  //- BLOCK
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  z-index: 1;
+  //- EFFECTS
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.25, 0.1, 0.2, 1);
+  &:before,
+  &:after {
+    //- POSITION
+    position: absolute;
+    //- BLOCK
+    content: "";
+    display: block;
+  }
+  &:before {
+    //- POSITION
+    top: -120px;
+    left: 50px;
+    z-index: -1;
+    //- BLOCK
+    width: calc(100% + 140px);
+    height: 100px;
+    //- EFFECTS
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.2, 1);
+    transform: skew(70deg);
+    background: #ff3366;
+  }
+  &:after {
+    //- POSITION
+    top: 0;
+    left: 0;
+    z-index: -2;
+    //- BLOCK
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    //- EFFECTS
+    border: 1px solid #fff;
+    &:hover {
+      &:before {
+        left: -50px;
+        top: -20px;
+      }
+    }
+  }
+}
+
+@mixin buttonEffect1 {
+  color: white;
+  background: rgb(9, 201, 153);
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  border: white 1px solid;
+  // clip-path: circle(10% at 90% 20%);
+
+  clip-path: inset(0% 0% 0% 90%);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    clip-path: inset(0% 0% 0% 0%);
+    background: #00b6ff;
+  }
+}
