@@ -162,7 +162,7 @@ body {
 }
 .timeline .content .description {
   color: #000000;
-  padding: 40px 15px;
+  padding: 35px 15px;
   background-color: #f7f7f7;
   font-size: 18px;
   line-height: 32px;
@@ -185,6 +185,14 @@ body {
   .timeline::after {
     left: 31px;
     width: 1px;
+    height: 80%;
+  }
+  .timeline .content {
+    margin-left: 1px;
+    width: 75vw;
+  }
+  .timeline .content .description {
+    padding: 20px;
   }
 
   /* Full-width containers */
@@ -192,6 +200,7 @@ body {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+    margin-top: 36px;
   }
   .time-line-container .spot {
     position: absolute;
@@ -221,11 +230,6 @@ body {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
-  }
-
-  .content {
-    margin-left: 1px;
-    width: 75vw;
   }
 }
 .sponsors-container {
