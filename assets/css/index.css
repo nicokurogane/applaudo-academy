@@ -206,6 +206,7 @@ body {
 }
 .footer-container .powered-by-container .footer-logo {
   width: 200px;
+  margin-bottom: 7px;
 }
 .footer-container .social-media-container {
   margin-top: 36px;
