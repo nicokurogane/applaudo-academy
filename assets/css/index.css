@@ -70,10 +70,18 @@ body {
   margin-bottom: 90px;
 }
 .header .content .header-button {
+  width: 200px;
+  color: #ffff;
   background-color: #ff4040;
-  border-color: #ff4040;
-  width: 150px;
+  border: #ffff 1px solid;
+  font-weight: 600;
   height: 40px;
+  border-color: #011625;
+}
+.header .content .header-button:hover {
+  color: #ff4040;
+  background-color: #ffff;
+  border: #ff4040 1px solid;
 }
 .header .content .img-header {
   width: 517.31px;

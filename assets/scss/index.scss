@@ -87,10 +87,10 @@ body {
     }
 
     .header-button {
-      background-color: $primaryColor;
-      border-color: $primaryColor;
-      width: 150px;
+      @include buttonWithHover($white, $primaryColor);
+      font-weight: 600;
       height: 40px;
+      border-color: $backgroundColor;
     }
 
     .img-header {
