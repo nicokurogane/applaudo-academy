@@ -194,14 +194,24 @@ body {
 .footer-container {
   background-color: #011625;
   color: #ffff;
-  height: 375px;
+  height: 250px;
   margin-top: 42px;
 }
 .footer-container .powered-by-container {
   padding-top: 46px;
 }
+.footer-container .powered-by-container .powered-by-text {
+  font-size: 18px;
+  line-height: 32px;
+}
 .footer-container .powered-by-container .footer-logo {
   width: 200px;
+}
+.footer-container .social-media-container {
+  margin-top: 36px;
+}
+.footer-container .social-media-container .social-media {
+  margin-left: 24px;
 }
 
 @media (min-width: 992px) {

@@ -215,13 +215,25 @@ body {
 .footer-container {
   background-color: $backgroundColor;
   color: $white;
-  height: 375px;
+  height: 250px;
   margin-top: 42px;
 
   .powered-by-container {
     padding-top: 46px;
+
+    .powered-by-text {
+      font-size: 18px;
+      line-height: 32px;
+    }
     .footer-logo {
       width: 200px;
+    }
+  }
+
+  .social-media-container {
+    margin-top: 36px;
+    .social-media {
+      margin-left: 24px;
     }
   }
 }
