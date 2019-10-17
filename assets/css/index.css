@@ -109,14 +109,13 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: blueviolet;
   /* Container around content */
   /* The actual content */
 }
 .timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 2px;
   background-color: #c4c4c4;
   top: 0;
   bottom: 0;
@@ -125,7 +124,6 @@ body {
 .timeline .time-line-container {
   padding: 10px 40px;
   position: relative;
-  background-color: #ff4040;
   width: 50%;
   /* The circles on the timeline */
 }
@@ -134,7 +132,7 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: #ededed;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -147,7 +145,7 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: #ededed;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -190,7 +188,7 @@ body {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: #ededed;
     top: 15px;
     border-radius: 50%;
     z-index: 100;
@@ -203,7 +201,7 @@ body {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: #ededed;
     top: 15px;
     border-radius: 50%;
     z-index: 100;
@@ -215,6 +213,10 @@ body {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+
+  .content {
+    margin-left: 25px;
   }
 }
 .sponsors-container {

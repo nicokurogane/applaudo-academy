@@ -137,12 +137,11 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: blueviolet;
 
   &::after {
     content: "";
     position: absolute;
-    width: 6px;
+    width: 2px;
     background-color: #c4c4c4;
     top: 0;
     bottom: 0;
@@ -153,7 +152,6 @@ body {
   .time-line-container {
     padding: 10px 40px;
     position: relative;
-    background-color: $primaryColor;
     width: 50%;
     /* The circles on the timeline */
     .spot {
@@ -205,6 +203,9 @@ body {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+  .content {
+    margin-left: 25px;
   }
 }
 
