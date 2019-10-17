@@ -156,7 +156,6 @@ body {
       padding: 10px 40px;
       position: relative;
       width: 50%;
-      background-color: darkblue;
       /* The circles on the timeline */
       .spot {
         @include spot(false, false);
