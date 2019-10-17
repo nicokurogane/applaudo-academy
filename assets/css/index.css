@@ -110,7 +110,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   /* Container around content */
-  /* The actual content */
 }
 .timeline::after {
   content: "";
@@ -153,11 +152,18 @@ body {
   justify-content: center;
   left: -8px;
 }
+.timeline .time-line-container:nth-child(n) {
+  padding-left: 62px;
+}
 .timeline .content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
+  color: white;
+  background-color: #ff4040;
+  height: 200px;
+}
+.timeline .content .description {
+  color: #000000;
+  background-color: #f7f7f7;
+  height: 100%;
 }
 
 /* Place the container to the left */

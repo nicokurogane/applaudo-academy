@@ -130,7 +130,7 @@ body {
   }
 }
 
-//**********************************************start timeline************************************************
+//**********************************************timeline css************************************************
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -160,14 +160,20 @@ body {
     .spot-reverse {
       @include spot(true, false);
     }
+    &:nth-child(n) {
+      padding-left: 62px;
+    }
   }
 
-  /* The actual content */
   .content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
+    color: white;
+    background-color: $primaryColor;
+    height: 200px;
+    .description {
+      color: #000000;
+      background-color: $descriptionBox;
+      height: 100%;
+    }
   }
 }
 
