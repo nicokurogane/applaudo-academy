@@ -104,6 +104,119 @@ body {
   margin-top: 34px;
 }
 
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: blueviolet;
+  /* Container around content */
+  /* The actual content */
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #c4c4c4;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+.timeline .time-line-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: #ff4040;
+  width: 50%;
+  /* The circles on the timeline */
+}
+.timeline .time-line-container .spot {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  right: -17px;
+}
+.timeline .time-line-container .spot-reverse {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  left: -8px;
+}
+.timeline .content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .time-line-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .time-line-container .spot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    left: 20px;
+  }
+  .time-line-container .spot-reverse {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    margin-left: 29px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
 .sponsors-container {
   background-color: #011625;
   color: #ff4040;

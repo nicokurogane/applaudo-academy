@@ -11,6 +11,28 @@
   }
 }
 
+@mixin spot($reverse, $isMobile) {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  @if ($reverse and not $isMobile) {
+    left: -8px;
+  } @else if(not $reverse and not $isMobile) {
+    right: -17px;
+  } @else if(not $reverse and $isMobile) {
+    left: 20px;
+  } @else {
+    margin-left: 29px;
+  }
+}
+
 @mixin buttonWithHoverInsetEffect {
   //- FONT
   text-decoration: none;
