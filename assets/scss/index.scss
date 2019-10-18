@@ -324,17 +324,19 @@ h4 {
 
   .title {
     color: $primaryColor;
-    font-weight: 600;
-    line-height: 40px;
-    font-family: "Avenir Next LT Pro Bold";
+    font-size: 50px;
+    line-height: 56px;
+    h2 {
+      text-align: center;
+    }
   }
 
-  .brand {
-    margin: 45px 0;
-  }
-
-  .brand-gutter {
-    padding: 0px;
+  .brand-container {
+    padding: 0 125px 0 155px;
+    .brand {
+      margin: 45px 0;
+      padding: 0;
+    }
   }
 }
 

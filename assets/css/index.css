@@ -321,15 +321,18 @@ h4 {
 }
 .working-brands-container .title {
   color: #ff4040;
-  font-weight: 600;
-  line-height: 40px;
-  font-family: "Avenir Next LT Pro Bold";
+  font-size: 50px;
+  line-height: 56px;
 }
-.working-brands-container .brand {
+.working-brands-container .title h2 {
+  text-align: center;
+}
+.working-brands-container .brand-container {
+  padding: 0 125px 0 155px;
+}
+.working-brands-container .brand-container .brand {
   margin: 45px 0;
-}
-.working-brands-container .brand-gutter {
-  padding: 0px;
+  padding: 0;
 }
 
 .what-you-can-do-container {
