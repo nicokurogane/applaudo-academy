@@ -32,6 +32,10 @@ body {
   font-family: "Avenir Next LT Pro Regular";
 }
 
+h1 {
+  font-family: "Avenir Next LT Pro Regular";
+}
+
 .section-title {
   color: #011625;
   font-family: "Avenir Next LT Pro Bold";
@@ -137,6 +141,7 @@ body {
   height: 75%;
 }
 .make-it-happen .timeline .time-line-container {
+  background-color: blue;
   padding: 10px 40px;
   position: relative;
   width: 50%;
@@ -198,31 +203,24 @@ body {
 @media screen and (max-width: 992px) {
   .make-it-happen {
     /* Place the timelime to the left */
-    /* Full-width containers */
     /* Make all right containers behave like the left ones */
   }
   .make-it-happen .timeline {
     margin-top: 33px;
+    /* Full-width containers */
   }
   .make-it-happen .timeline::after {
     left: 31px;
     width: 1px;
     height: 80%;
   }
-  .make-it-happen .timeline .content {
-    margin-left: 1px;
-    width: 75vw;
-  }
-  .make-it-happen .timeline .content .description {
-    padding: 20px;
-  }
-  .make-it-happen .time-line-container {
+  .make-it-happen .timeline .time-line-container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
     margin-top: 64px;
   }
-  .make-it-happen .time-line-container .spot {
+  .make-it-happen .timeline .time-line-container .spot {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -234,7 +232,7 @@ body {
     justify-content: center;
     left: 20px;
   }
-  .make-it-happen .time-line-container .spot-reverse {
+  .make-it-happen .timeline .time-line-container .spot-reverse {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -246,8 +244,20 @@ body {
     justify-content: center;
     margin-left: 29px;
   }
-  .make-it-happen .time-line-container:first-child {
+  .make-it-happen .timeline .time-line-container:first-child {
     margin-top: 0;
+  }
+  .make-it-happen .timeline .time-line-container .content {
+    width: 75vw;
+  }
+  .make-it-happen .timeline .time-line-container .content .description {
+    padding: 20px;
+  }
+  .make-it-happen .timeline .time-line-container .content:nth-child(even) {
+    margin-left: 0px;
+  }
+  .make-it-happen .timeline .time-line-container .content:nth-child(odd) {
+    margin-left: 0px;
   }
   .make-it-happen .right {
     left: 0%;
@@ -268,6 +278,11 @@ body {
 }
 .sponsors-container .brand {
   margin: 45px 0;
+}
+
+.former-trainees-container .img-trainee {
+  width: 100px;
+  height: 50px;
 }
 
 .working-brands-container {
