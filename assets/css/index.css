@@ -141,7 +141,6 @@ h1 {
   height: 75%;
 }
 .make-it-happen .timeline .time-line-container {
-  background-color: blue;
   padding: 10px 40px;
   position: relative;
   width: 50%;
@@ -192,7 +191,7 @@ h1 {
   margin-left: 99px;
 }
 .make-it-happen .timeline .time-line-container .content:nth-child(odd) {
-  margin-left: 14px;
+  margin-left: 3px;
 }
 .make-it-happen .left {
   left: 0;

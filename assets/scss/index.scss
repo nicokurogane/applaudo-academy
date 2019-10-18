@@ -157,7 +157,6 @@ h1 {
 
     /* Container around content */
     .time-line-container {
-      background-color: blue;
       padding: 10px 40px;
       position: relative;
       width: 50%;
@@ -191,7 +190,7 @@ h1 {
         }
 
         &:nth-child(odd) {
-          margin-left: 14px;
+          margin-left: 3px;
         }
       }
     }
