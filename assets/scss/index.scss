@@ -354,6 +354,9 @@ h4 {
       margin-top: 0;
     }
     .description {
+      font-family: "Avenir Next LT Pro Regular";
+      font-size: 18px;
+      line-height: 32px;
       margin: 0 32px;
       .action-title {
         color: $backgroundColor;
@@ -430,6 +433,13 @@ h4 {
     .sponsors-brands {
       height: 100%;
       padding: 0 172px;
+    }
+  }
+
+  .what-you-can-do-container {
+    padding: 0 200px;
+    .action-sub-section {
+      flex-wrap: nowrap;
     }
   }
 }
