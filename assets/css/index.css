@@ -33,12 +33,23 @@ body {
 }
 
 h1 {
-  font-family: "Avenir Next LT Pro Regular";
+  font-family: "Avenir Next LT Pro Bold";
+}
+
+h2 {
+  font-family: "Avenir Next LT Pro Bold";
+}
+
+h3 {
+  font-family: "Avenir Next LT Pro Demi";
+}
+
+h4 {
+  font-family: "Avenir Next LT Pro Demi";
 }
 
 .section-title {
   color: #011625;
-  font-family: "Avenir Next LT Pro Bold";
 }
 
 .header {
@@ -93,6 +104,9 @@ h1 {
   margin-left: 56px;
 }
 
+.main-info {
+  font-family: "Avenir Next LT Pro Regular";
+}
 .main-info .highlight {
   font-weight: 800;
 }
@@ -104,6 +118,10 @@ h1 {
 }
 .main-info .row .col-img-container {
   padding: 0;
+}
+.main-info .row .col-img-container .img-trainees {
+  max-width: 100%;
+  height: auto;
 }
 .main-info .row .col-partnership {
   padding-left: 0;
@@ -181,6 +199,7 @@ h1 {
 }
 .make-it-happen .timeline .time-line-container .content .description {
   color: #000000;
+  font-family: "Avenir Next LT Pro Regular";
   padding: 35px 15px;
   background-color: #f7f7f7;
   font-size: 18px;
@@ -266,7 +285,6 @@ h1 {
 .sponsors-container {
   background-color: #011625;
   color: #ff4040;
-  font-family: "Avenir Next LT Pro Bold";
   margin-top: 68px;
   padding: 43px 86px 70px 86px;
 }
@@ -402,6 +420,12 @@ h1 {
 @media (min-width: 992px) {
   .main-info {
     margin: 80px 200px;
+  }
+  .main-info .col-info-container {
+    margin-top: 0;
+  }
+  .main-info .img-trainees {
+    height: 100%;
   }
 
   .sponsors-container {
