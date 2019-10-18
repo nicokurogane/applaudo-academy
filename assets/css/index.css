@@ -268,14 +268,17 @@ h1 {
   color: #ff4040;
   font-family: "Avenir Next LT Pro Bold";
   margin-top: 68px;
-  padding: 146px 146px;
+  padding: 43px 86px 70px 86px;
 }
-.sponsors-container .sponsors-title {
+.sponsors-container .sponsors-brands .col {
+  padding: 0;
+}
+.sponsors-container .sponsors-brands .sponsors-title {
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
 }
-.sponsors-container .brand {
+.sponsors-container .sponsors-brands .brand {
   margin: 45px 0;
 }
 
@@ -402,7 +405,12 @@ h1 {
   }
 
   .sponsors-container {
-    padding: 146px;
+    height: 348px;
+    padding: 0;
+  }
+  .sponsors-container .sponsors-brands {
+    height: 100%;
+    padding: 0 172px;
   }
 }
 
