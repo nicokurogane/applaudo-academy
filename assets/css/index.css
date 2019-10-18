@@ -54,7 +54,7 @@ h4 {
 }
 
 .header {
-  padding: 32px;
+  padding: 32px 32px 100px 32px;
   background: #011625;
 }
 .header .academy-logo {
@@ -66,43 +66,46 @@ h4 {
   height: 27px;
   margin-left: 14px;
 }
-.header .content {
+.header .above-the-fold {
   color: #ffff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 96px 12px 0 12px;
 }
-.header .content .title-header {
+.header .above-the-fold .content {
+  margin-right: 56px;
+}
+.header .above-the-fold .content .title-header {
   color: #ff4040;
-  font-family: "Avenir Next LT Pro Bold";
   font-size: 70px;
-  line-height: 104px;
+  font-size: 88px;
+  line-height: 96px;
   letter-spacing: -0.05em;
 }
-.header .content .paragraph {
+.header .above-the-fold .content .paragraph {
   font-size: 25px;
   line-height: 40px;
   margin-bottom: 90px;
 }
-.header .content .header-button {
+.header .above-the-fold .content .header-button {
   width: 200px;
   color: #ffff;
   background-color: #ff4040;
   border: #ffff 1px solid;
+  border-radius: 0;
   font-weight: 600;
   height: 40px;
   border-color: #011625;
 }
-.header .content .header-button:hover {
+.header .above-the-fold .content .header-button:hover {
   color: #ff4040;
   background-color: #ffff;
   border: #ff4040 1px solid;
 }
-.header .content .img-header {
-  width: 517.31px;
+.header .above-the-fold .img-header {
+  width: 600px;
   height: 380px;
-  margin-left: 56px;
 }
 
 .main-info {
@@ -362,6 +365,7 @@ h4 {
   color: #ffff;
   background-color: #ff4040;
   border: #ffff 1px solid;
+  border-radius: 0;
 }
 .what-you-can-do-container .action-sub-section .description .primary-button:hover {
   color: #ff4040;
@@ -373,6 +377,7 @@ h4 {
   color: #ff4040;
   background-color: #ffff;
   border: #ff4040 1px solid;
+  border-radius: 0;
 }
 .what-you-can-do-container .action-sub-section .description .secondary-button:hover {
   color: #ffff;
@@ -424,7 +429,7 @@ h4 {
 
 @media (min-width: 992px) {
   .main-info {
-    margin: 80px 200px;
+    margin: 100px 200px 90px 200px;
   }
   .main-info .row .col-info-container {
     margin-top: 0;

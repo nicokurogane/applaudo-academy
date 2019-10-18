@@ -67,7 +67,7 @@ h4 {
 }
 
 .header {
-  padding: 32px;
+  padding: 32px 32px 100px 32px;
   background: $backgroundColor;
 
   .academy-logo {
@@ -81,38 +81,40 @@ h4 {
     margin-left: 14px;
   }
 
-  .content {
+  .above-the-fold {
     color: $white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 96px 12px 0 12px;
 
-    .title-header {
-      color: $primaryColor;
-      font-family: "Avenir Next LT Pro Bold";
-      font-size: 70px;
-      line-height: 104px;
-      letter-spacing: -0.05em;
-    }
+    .content {
+      margin-right: 56px;
+      .title-header {
+        color: $primaryColor;
+        font-size: 70px;
+        font-size: 88px;
+        line-height: 96px;
+        letter-spacing: -0.05em;
+      }
 
-    .paragraph {
-      font-size: 25px;
-      line-height: 40px;
-      margin-bottom: 90px;
-    }
+      .paragraph {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 90px;
+      }
 
-    .header-button {
-      @include buttonWithHover($white, $primaryColor);
-      font-weight: 600;
-      height: 40px;
-      border-color: $backgroundColor;
+      .header-button {
+        @include buttonWithHover($white, $primaryColor);
+        font-weight: 600;
+        height: 40px;
+        border-color: $backgroundColor;
+      }
     }
 
     .img-header {
-      width: 517.31px;
+      width: 600px;
       height: 380px;
-      margin-left: 56px;
     }
   }
 }
@@ -414,7 +416,7 @@ h4 {
 
 @media (min-width: 992px) {
   .main-info {
-    margin: 80px 200px;
+    margin: 100px 200px 90px 200px;
 
     .row {
       .col-info-container {
