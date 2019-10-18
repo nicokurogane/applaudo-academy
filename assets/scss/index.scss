@@ -133,10 +133,11 @@ h4 {
     }
 
     .col-img-container {
-      padding: 0;
       .img-trainees {
-        // width: 375px;
-        // height: 262px;
+        background-image: url("../images/trainees.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 252px;
       }
     }
 
@@ -421,6 +422,12 @@ h4 {
     .row {
       .col-info-container {
         margin-top: 0;
+      }
+      .col-img-container {
+        .img-trainees {
+          background-image: url("../images/trainees.png");
+          height: 100%;
+        }
       }
     }
 
