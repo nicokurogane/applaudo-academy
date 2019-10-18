@@ -43,6 +43,7 @@
 
 body {
   font-family: "Avenir Next LT Pro Regular";
+  overflow-x: hidden;
 }
 
 h1 {
@@ -118,6 +119,8 @@ h4 {
 
 .main-info {
   font-family: "Avenir Next LT Pro Regular";
+  font-size: 18px;
+  line-height: 32px;
   .highlight {
     font-weight: 800;
   }
@@ -130,8 +133,8 @@ h4 {
     .col-img-container {
       padding: 0;
       .img-trainees {
-        max-width: 100%;
-        height: auto;
+        // width: 375px;
+        // height: 262px;
       }
     }
 
@@ -306,6 +309,8 @@ h4 {
     width: 100px;
     height: 50px;
   }
+
+  background-color: cadetblue;
 }
 
 .working-brands-container {
@@ -408,8 +413,10 @@ h4 {
   .main-info {
     margin: 80px 200px;
 
-    .col-info-container {
-      margin-top: 0;
+    .row {
+      .col-info-container {
+        margin-top: 0;
+      }
     }
 
     .img-trainees {

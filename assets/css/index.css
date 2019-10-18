@@ -30,6 +30,7 @@
 }
 body {
   font-family: "Avenir Next LT Pro Regular";
+  overflow-x: hidden;
 }
 
 h1 {
@@ -106,6 +107,8 @@ h4 {
 
 .main-info {
   font-family: "Avenir Next LT Pro Regular";
+  font-size: 18px;
+  line-height: 32px;
 }
 .main-info .highlight {
   font-weight: 800;
@@ -118,10 +121,6 @@ h4 {
 }
 .main-info .row .col-img-container {
   padding: 0;
-}
-.main-info .row .col-img-container .img-trainees {
-  max-width: 100%;
-  height: auto;
 }
 .main-info .row .col-partnership {
   padding-left: 0;
@@ -300,6 +299,9 @@ h4 {
   margin: 45px 0;
 }
 
+.former-trainees-container {
+  background-color: cadetblue;
+}
 .former-trainees-container .img-trainee {
   width: 100px;
   height: 50px;
@@ -421,7 +423,7 @@ h4 {
   .main-info {
     margin: 80px 200px;
   }
-  .main-info .col-info-container {
+  .main-info .row .col-info-container {
     margin-top: 0;
   }
   .main-info .img-trainees {
