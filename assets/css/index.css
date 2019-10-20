@@ -306,11 +306,54 @@ h4 {
 }
 
 .former-trainees-container {
-  background-color: cadetblue;
+  padding-top: 44px;
 }
-.former-trainees-container .img-trainee {
-  width: 100px;
-  height: 50px;
+.former-trainees-container .section-title {
+  font-size: 32px;
+  line-height: 40px;
+}
+.former-trainees-container .trainee-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.former-trainees-container .trainee-container .photo {
+  margin-top: 19px;
+  width: 231px;
+  height: 231px;
+}
+.former-trainees-container .trainee-container .information {
+  font-family: "Avenir Next LT Pro Regular";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 26px 24px;
+}
+.former-trainees-container .trainee-container .information .testimony {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+.former-trainees-container .trainee-container .information .name {
+  color: #011625;
+  align-self: flex-end;
+  font-size: 18px;
+  line-height: 22px;
+}
+.former-trainees-container .carousel-indicators {
+  bottom: -26px;
+}
+.former-trainees-container .carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #dbdbdb;
+  margin: 0 8px;
+}
+.former-trainees-container .carousel-indicators .active {
+  background-color: #ff4040;
 }
 
 .working-brands-container {
