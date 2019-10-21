@@ -595,6 +595,9 @@ h4 {
     padding: 0 200px;
     .action-sub-section {
       flex-wrap: nowrap;
+      .description {
+        padding-left: 29px;
+      }
     }
   }
 
@@ -602,7 +605,6 @@ h4 {
     padding: 0 201px 0 196px;
     .powered-by-container {
       padding: 0;
-      // margin-right: 365px;
     }
 
     .social-media-container {

@@ -584,6 +584,9 @@ h4 {
   .what-you-can-do-container .action-sub-section {
     flex-wrap: nowrap;
   }
+  .what-you-can-do-container .action-sub-section .description {
+    padding-left: 29px;
+  }
 
   .footer-container {
     padding: 0 201px 0 196px;
