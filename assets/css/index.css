@@ -573,6 +573,11 @@ h4 {
     margin: 0 20px 0 0;
   }
 
+  .working-brands-container {
+    height: 380px;
+    padding: 84px 192px 84px 210px;
+  }
+
   .what-you-can-do-container {
     padding: 0 200px;
   }
