@@ -500,6 +500,28 @@ h4 {
     padding: 0 172px;
   }
 
+  .former-trainees-container .trainee-container {
+    padding: 0 231px 0 247px;
+  }
+  .former-trainees-container .trainee-container .photo {
+    width: 320px;
+    height: 320px;
+  }
+  .former-trainees-container .trainee-container .information {
+    margin: 0 0 0 60px;
+  }
+  .former-trainees-container .trainee-container .information .testimony {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .former-trainees-container .trainee-container .information .name {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .former-trainees-container .trainee-container .reverse {
+    margin: 0 20px 0 0;
+  }
+
   .what-you-can-do-container {
     padding: 0 200px;
   }

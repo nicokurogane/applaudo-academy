@@ -495,14 +495,31 @@ h4 {
     }
   }
 
-  // .former-trainees-container {
-  //   .trainee-container {
-  //     display: flex;
-  //     flex-direction: row;
-  //     justify-content: center;
-  //     align-items: center;
-  //   }
-  // }
+  .former-trainees-container {
+    .trainee-container {
+      padding: 0 231px 0 247px;
+
+      .photo {
+        width: 320px;
+        height: 320px;
+      }
+      .information {
+        margin: 0 0 0 60px;
+
+        .testimony {
+          font-size: 18px;
+          line-height: 32px;
+        }
+        .name {
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+      .reverse {
+        margin: 0 20px 0 0;
+      }
+    }
+  }
 
   .what-you-can-do-container {
     padding: 0 200px;
