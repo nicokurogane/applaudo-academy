@@ -585,9 +585,11 @@ h4 {
     flex-wrap: nowrap;
   }
 
+  .footer-container {
+    padding: 0 201px 0 196px;
+  }
   .footer-container .powered-by-container {
     padding: 0;
-    margin-right: 441px;
   }
   .footer-container .social-media-container .follow-us-container {
     margin: 3px 31px 0 0;
