@@ -113,6 +113,9 @@ h4 {
 }
 .main-info .row .col-info-container {
   margin: 26px 0 0 0;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .main-info .row .col-img-container .img-trainees {
   background-image: url("../images/trainees.jpg");
@@ -506,6 +509,9 @@ h4 {
   }
   .main-info .row .col-info-container {
     margin-top: 0;
+    padding: 0 32px 0 0;
+    font-size: 18px;
+    line-height: 32px;
   }
   .main-info .row .col-img-container .img-trainees {
     background-image: url("../images/trainees.png");
