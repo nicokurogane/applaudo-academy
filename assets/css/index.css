@@ -51,6 +51,7 @@ h4 {
 
 .section-title {
   color: #011625;
+  text-align: center;
 }
 
 .header {
@@ -436,12 +437,13 @@ h4 {
 
 .footer-container {
   background-color: #011625;
+  font-family: "Avenir Next LT Pro Regular";
   color: #ffff;
-  height: 250px;
+  height: 156px;
   margin-top: 42px;
 }
 .footer-container .powered-by-container {
-  padding-top: 46px;
+  padding-top: 29px;
 }
 .footer-container .powered-by-container .powered-by-text {
   font-size: 18px;
@@ -452,7 +454,7 @@ h4 {
   margin-bottom: 7px;
 }
 .footer-container .social-media-container {
-  margin-top: 36px;
+  padding-top: 29px;
 }
 .footer-container .social-media-container .social-media {
   margin-left: 24px;
@@ -527,6 +529,32 @@ h4 {
   }
   .what-you-can-do-container .action-sub-section {
     flex-wrap: nowrap;
+  }
+
+  .footer-container .powered-by-container {
+    padding: 0;
+    margin-right: 441px;
+  }
+  .footer-container .social-media-container .follow-us-container {
+    margin-right: 31px;
+  }
+  .footer-container .test-button-container {
+    background-color: #ff4040;
+  }
+  .footer-container .test-button-container .button {
+    color: white;
+    background: #09c999;
+    padding: 1em;
+    border-radius: 10px;
+    width: 250px;
+    border: white 1px solid;
+    clip-path: inset(0% 0% 0% 90%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .footer-container .test-button-container .button:hover {
+    clip-path: inset(0% 0% 0% 0%);
+    background: #00b6ff;
   }
 }
 

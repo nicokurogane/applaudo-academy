@@ -64,6 +64,7 @@ h4 {
 
 .section-title {
   color: $backgroundColor;
+  text-align: center;
 }
 
 .header {
@@ -432,12 +433,13 @@ h4 {
 
 .footer-container {
   background-color: $backgroundColor;
+  font-family: "Avenir Next LT Pro Regular";
   color: $white;
-  height: 250px;
+  height: 156px;
   margin-top: 42px;
 
   .powered-by-container {
-    padding-top: 46px;
+    padding-top: 29px;
 
     .powered-by-text {
       font-size: 18px;
@@ -450,7 +452,7 @@ h4 {
   }
 
   .social-media-container {
-    margin-top: 36px;
+    padding-top: 29px;
     .social-media {
       margin-left: 24px;
     }
@@ -525,6 +527,29 @@ h4 {
     padding: 0 200px;
     .action-sub-section {
       flex-wrap: nowrap;
+    }
+  }
+
+  .footer-container {
+    .powered-by-container {
+      padding: 0;
+      margin-right: 441px;
+    }
+
+    .social-media-container {
+      .follow-us-container {
+        margin-right: 31px;
+      }
+      .social-media {
+      }
+    }
+
+    .test-button-container {
+      background-color: $primaryColor;
+
+      .button {
+        @include buttonEffect1;
+      }
     }
   }
 }
