@@ -64,6 +64,8 @@ h4 {
 
 .section-title {
   color: $backgroundColor;
+  font-size: 32px;
+  line-height: 40px;
   text-align: center;
 }
 
@@ -231,6 +233,7 @@ h4 {
 
     .timeline {
       margin-top: 33px;
+      margin-bottom: 125px;
       &::after {
         left: 31px;
         width: 1px;
@@ -240,9 +243,11 @@ h4 {
       /* Full-width containers */
       .time-line-container {
         width: 100%;
+        height: 100%;
         padding-left: 70px;
         padding-right: 25px;
         margin-top: 64px;
+
         .spot {
           @include spot(false, true);
         }
@@ -255,9 +260,24 @@ h4 {
         }
 
         .content {
+          margin-bottom: 28px;
           width: 75vw;
           .description {
-            padding: 20px;
+            font-size: 16px;
+            padding: 10px;
+          }
+
+          .child-1 {
+            height: 200px;
+          }
+          .child-2 {
+            height: 200px;
+          }
+          .child-3 {
+            height: 200px;
+          }
+          .child-4 {
+            height: 200px;
           }
 
           &:nth-child(even) {
@@ -305,11 +325,6 @@ h4 {
 
 .former-trainees-container {
   padding-top: 44px;
-
-  .section-title {
-    font-size: 32px;
-    line-height: 40px;
-  }
 
   .trainee-container {
     display: flex;
@@ -463,6 +478,11 @@ h4 {
 }
 
 @media (min-width: 992px) {
+  .section-title {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
   .header {
     padding: 32px 32px 100px 32px;
     .academy-logo {
