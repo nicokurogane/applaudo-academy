@@ -55,39 +55,34 @@ h4 {
 }
 
 .header {
-  padding: 32px 32px 100px 32px;
+  padding: 14px 14px 60px 14px;
   background: #011625;
 }
 .header .academy-logo {
-  width: 228.74px;
-  height: 54.81px;
+  width: 182px;
+  height: 49.24px;
 }
 .header .powered-by-img {
-  width: 200px;
-  height: 27px;
-  margin-left: 14px;
+  width: 182px;
+  height: 20px;
 }
 .header .above-the-fold {
   color: #ffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 96px 12px 0 12px;
-}
-.header .above-the-fold .content {
-  margin-right: 56px;
+  margin: 83px 0 0 0;
 }
 .header .above-the-fold .content .title-header {
   color: #ff4040;
-  font-size: 70px;
-  font-size: 88px;
-  line-height: 96px;
+  font-size: 67px;
+  line-height: 64px;
   letter-spacing: -0.05em;
 }
 .header .above-the-fold .content .paragraph {
-  font-size: 25px;
-  line-height: 40px;
-  margin-bottom: 90px;
+  font-size: 21px;
+  line-height: 31px;
+  margin-bottom: 51px;
 }
 .header .above-the-fold .content .header-button {
   width: 200px;
@@ -103,10 +98,6 @@ h4 {
   color: #ff4040;
   background-color: #ffff;
   border: #ff4040 1px solid;
-}
-.header .above-the-fold .img-header {
-  width: 600px;
-  height: 380px;
 }
 
 .main-info {
@@ -479,6 +470,37 @@ h4 {
 }
 
 @media (min-width: 992px) {
+  .header {
+    padding: 32px 32px 100px 32px;
+  }
+  .header .academy-logo {
+    width: 228.74px;
+    height: 54.81px;
+    margin-left: -14px;
+  }
+  .header .powered-by-img {
+    width: 200px;
+    height: 27px;
+  }
+  .header .above-the-fold {
+    margin: 96px 0 0 0;
+  }
+  .header .above-the-fold .content .title-header {
+    font-size: 75px;
+    line-height: 96px;
+    letter-spacing: -0.05em;
+  }
+  .header .above-the-fold .content .paragraph {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 90px;
+  }
+  .header .above-the-fold .img-header {
+    width: 600px;
+    height: 380px;
+    margin-left: 56px;
+  }
+
   .main-info {
     margin: 100px 200px 90px 200px;
   }
