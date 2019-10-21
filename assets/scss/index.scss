@@ -266,7 +266,7 @@ h4 {
             font-size: 16px;
             padding: 10px;
           }
-
+          //TODO get back here later
           .child-1 {
             height: 200px;
           }
@@ -313,10 +313,7 @@ h4 {
     }
     .sponsors-title {
       font-size: 32px;
-      font-weight: 600;
-      line-height: 40px;
     }
-
     .brand {
       margin: 45px 0;
     }
@@ -379,19 +376,23 @@ h4 {
   background-color: $backgroundColor;
   color: $white;
   margin-top: 68px;
-  padding: 146px 76px;
+  padding: 50px 34px 34px 34px;
 
   .title {
     color: $primaryColor;
-    font-size: 50px;
-    line-height: 56px;
+
+    h3 {
+      text-align: center;
+      font-size: 32px;
+      line-height: 56px;
+    }
     h2 {
       text-align: center;
+      font-size: 50px;
     }
   }
 
   .brand-container {
-    padding: 0 125px 0 155px;
     .brand {
       margin: 45px 0;
       padding: 0;
@@ -548,13 +549,16 @@ h4 {
     padding: 0;
     .sponsors-brands {
       height: 100%;
-      padding: 0 172px;
+      padding: 0 200px;
+      .sponsors-title {
+        font-size: 50px;
+      }
     }
   }
 
   .former-trainees-container {
     .trainee-container {
-      padding: 0 231px 0 247px;
+      padding: 0 231px 0 227px;
 
       .photo {
         width: 320px;
