@@ -551,6 +551,12 @@ h4 {
     font-size: 50px;
   }
 
+  .former-trainees-container {
+    padding-top: 92px;
+  }
+  .former-trainees-container .section-title {
+    margin-bottom: 50px;
+  }
   .former-trainees-container .trainee-container {
     padding: 0 231px 0 227px;
   }
@@ -576,6 +582,7 @@ h4 {
   .working-brands-container {
     height: 380px;
     padding: 84px 192px 84px 210px;
+    margin-top: 30px;
   }
 
   .what-you-can-do-container {

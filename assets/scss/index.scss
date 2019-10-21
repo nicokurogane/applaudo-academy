@@ -557,6 +557,12 @@ h4 {
   }
 
   .former-trainees-container {
+    padding-top: 92px;
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+
     .trainee-container {
       padding: 0 231px 0 227px;
 
@@ -585,6 +591,7 @@ h4 {
   .working-brands-container {
     height: 380px;
     padding: 84px 192px 84px 210px;
+    margin-top: 30px;
     // .brand-container {
     //   .brand {
     //   }
