@@ -343,6 +343,7 @@ h4 {
       align-items: center;
       margin: 26px 24px;
       .testimony {
+        height: 250px; //test this
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 8px;
@@ -362,7 +363,7 @@ h4 {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      // background-color: $mediumGray;
+      // background-color: $mediumGray; ask pots about this
       background-color: #dbdbdb;
       margin: 0 8px;
     }
@@ -501,9 +502,10 @@ h4 {
       margin: 96px 0 0 0;
       .content {
         .title-header {
-          font-size: 75px; //REVISA ESTO CON POTS
+          font-size: 80px;
           line-height: 96px;
-          letter-spacing: -0.05em;
+          letter-spacing: -5%;
+          width: 700px;
         }
 
         .paragraph {
@@ -514,9 +516,9 @@ h4 {
       }
 
       .img-header {
-        width: 600px;
-        height: 380px;
-        margin-left: 56px;
+        width: 100%;
+        height: 100%;
+        // margin-left: 56px;
       }
     }
   }
@@ -574,6 +576,7 @@ h4 {
         margin: 0 0 0 60px;
 
         .testimony {
+          height: auto; //test this
           font-size: 18px;
           line-height: 32px;
         }
