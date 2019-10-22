@@ -198,7 +198,7 @@ h4 {
   height: 100%;
 }
 .make-it-happen .timeline .time-line-container .content .title {
-  padding: 5px 10px;
+  padding: 12px 10px;
   margin: 0;
   background-color: #ff4040;
 }
@@ -236,7 +236,7 @@ h4 {
   .make-it-happen .timeline::after {
     left: 31px;
     width: 1px;
-    height: 78.5%;
+    height: 77%;
   }
   .make-it-happen .timeline .time-line-container {
     width: 100%;
@@ -274,21 +274,12 @@ h4 {
   .make-it-happen .timeline .time-line-container .content {
     width: 75vw;
   }
+  .make-it-happen .timeline .time-line-container .content .title {
+    padding: 16px 13px;
+  }
   .make-it-happen .timeline .time-line-container .content .description {
     font-size: 16px;
     padding: 10px;
-  }
-  .make-it-happen .timeline .time-line-container .content .child-1 {
-    height: 200px;
-  }
-  .make-it-happen .timeline .time-line-container .content .child-2 {
-    height: 200px;
-  }
-  .make-it-happen .timeline .time-line-container .content .child-3 {
-    height: 200px;
-  }
-  .make-it-happen .timeline .time-line-container .content .child-4 {
-    height: 200px;
   }
   .make-it-happen .timeline .time-line-container .content:nth-child(even) {
     margin-left: 0px;
@@ -540,7 +531,6 @@ h4 {
     line-height: 32px;
   }
   .main-info .row .col-img-container .img-trainees {
-    background-image: url("../images/trainees.png");
     height: 100%;
   }
   .main-info .img-trainees {
