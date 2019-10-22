@@ -28,6 +28,10 @@
   font-weight: normal;
   src: local("Avenir Next LT Pro Ultra Light"), url("/assets/fonts/AvenirNextLTPro-UltLt.woff") format("woff");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Avenir Next LT Pro Regular";
   overflow-x: hidden;
@@ -387,9 +391,6 @@ h4 {
 .what-you-can-do-container .action-sub-section {
   margin-top: 40px;
 }
-.what-you-can-do-container .action-sub-section:first-child {
-  margin-top: 0;
-}
 .what-you-can-do-container .action-sub-section .description {
   font-family: "Avenir Next LT Pro Regular";
   font-size: 18px;
@@ -446,6 +447,7 @@ h4 {
   padding-top: 29px;
 }
 .footer-container .powered-by-container .powered-by-text {
+  margin-top: 5px;
   font-size: 18px;
   line-height: 32px;
 }
@@ -612,7 +614,9 @@ h4 {
     padding: 0;
   }
   .footer-container .social-media-container .follow-us-container {
-    margin: 3px 31px 0 0;
+    margin: 6px 31px 0 0;
+    font-size: 18px;
+    line-height: 32px;
   }
   .footer-container .test-button-container {
     background-color: #ff4040;

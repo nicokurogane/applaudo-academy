@@ -41,6 +41,10 @@
     url("/assets/fonts/AvenirNextLTPro-UltLt.woff") format("woff");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Avenir Next LT Pro Regular";
   overflow-x: hidden;
@@ -394,9 +398,6 @@ h4 {
   .action-sub-section {
     margin-top: 40px;
 
-    &:first-child {
-      margin-top: 0;
-    }
     .description {
       font-family: "Avenir Next LT Pro Regular";
       font-size: 18px;
@@ -431,9 +432,11 @@ h4 {
     padding-top: 29px;
 
     .powered-by-text {
+      margin-top: 5px;
       font-size: 18px;
       line-height: 32px;
     }
+
     .footer-logo {
       width: 200px;
       margin-bottom: 7px;
@@ -610,7 +613,9 @@ h4 {
 
     .social-media-container {
       .follow-us-container {
-        margin: 3px 31px 0 0;
+        margin: 6px 31px 0 0;
+        font-size: 18px;
+        line-height: 32px;
       }
     }
 
