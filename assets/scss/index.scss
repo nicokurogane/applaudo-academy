@@ -165,7 +165,7 @@ h4 {
     &::after {
       content: "";
       position: absolute;
-      width: 2px;
+      width: 1px;
       background-color: #c4c4c4;
       top: 0;
       bottom: 0;
@@ -189,11 +189,12 @@ h4 {
 
       .content {
         color: white;
-        background-color: $primaryColor;
-        width: 420px;
-        height: 200px;
+        width: 75%;
+        height: 100%;
         .title {
           padding: 5px 10px;
+          margin: 0;
+          background-color: $primaryColor;
         }
         .description {
           color: #000000;
@@ -206,11 +207,11 @@ h4 {
         }
 
         &:nth-child(even) {
-          margin-left: 99px;
+          margin-left: 27%;
         }
 
         &:nth-child(odd) {
-          margin-left: 3px;
+          margin-left: -2%;
         }
       }
     }
