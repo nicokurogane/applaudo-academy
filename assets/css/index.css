@@ -92,6 +92,9 @@ h4 {
   background-color: #ff4040;
   border: #ffff 1px solid;
   border-radius: 0;
+  font-family: "Avenir Next LT Pro Demi";
+  font-size: 18px;
+  line-height: 32px;
   font-weight: 600;
   height: 40px;
   border-color: #011625;
@@ -423,6 +426,9 @@ h4 {
   background-color: #ff4040;
   border: #ffff 1px solid;
   border-radius: 0;
+  font-family: "Avenir Next LT Pro Demi";
+  font-size: 18px;
+  line-height: 32px;
 }
 .what-you-can-do-container .action-sub-section .description .primary-button:hover {
   color: #ff4040;
@@ -435,6 +441,9 @@ h4 {
   background-color: #ffff;
   border: #ff4040 1px solid;
   border-radius: 0;
+  font-family: "Avenir Next LT Pro Demi";
+  font-size: 18px;
+  line-height: 32px;
 }
 .what-you-can-do-container .action-sub-section .description .secondary-button:hover {
   color: #ffff;
@@ -590,6 +599,7 @@ h4 {
     padding: 0 200px;
   }
   .what-you-can-do-container .action-sub-section {
+    height: 100%;
     flex-wrap: nowrap;
   }
   .what-you-can-do-container .action-sub-section .col {

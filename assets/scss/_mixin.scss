@@ -4,6 +4,9 @@
   background-color: $secondaryButtonColor;
   border: $primaryButtonColor 1px solid;
   border-radius: 0;
+  font-family: "Avenir Next LT Pro Demi";
+  font-size: 18px;
+  line-height: 32px;
 
   &:hover {
     color: $secondaryButtonColor;
