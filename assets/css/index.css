@@ -236,14 +236,13 @@ h4 {
   .make-it-happen .timeline::after {
     left: 31px;
     width: 1px;
-    height: 80%;
+    height: 78.5%;
   }
   .make-it-happen .timeline .time-line-container {
     width: 100%;
     height: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-    margin-top: 64px;
+    padding: 0 25px 0 53px;
+    margin-top: 24px;
   }
   .make-it-happen .timeline .time-line-container .spot {
     position: absolute;
@@ -273,7 +272,6 @@ h4 {
     margin-top: 0;
   }
   .make-it-happen .timeline .time-line-container .content {
-    margin-bottom: 28px;
     width: 75vw;
   }
   .make-it-happen .timeline .time-line-container .content .description {
