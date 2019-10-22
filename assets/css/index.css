@@ -373,7 +373,7 @@ h4 {
 }
 
 .what-you-can-do-container {
-  margin-top: 100px;
+  margin-top: 41px;
 }
 .what-you-can-do-container .brand {
   margin: 45px 0;
@@ -385,7 +385,7 @@ h4 {
   margin: 45px 0 36px 0;
 }
 .what-you-can-do-container .action-sub-section {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .what-you-can-do-container .action-sub-section:first-child {
   margin-top: 0;
@@ -579,11 +579,13 @@ h4 {
   }
 
   .what-you-can-do-container {
+    margin-top: 100px;
     padding: 0 200px;
     font-size: 18px;
     line-height: 32px;
   }
   .what-you-can-do-container .action-sub-section {
+    margin-top: 52px;
     flex-wrap: nowrap;
   }
   .what-you-can-do-container .action-sub-section .col {

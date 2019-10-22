@@ -380,7 +380,7 @@ h4 {
 }
 
 .what-you-can-do-container {
-  margin-top: 100px;
+  margin-top: 41px;
   .brand {
     margin: 45px 0;
   }
@@ -392,7 +392,7 @@ h4 {
   }
 
   .action-sub-section {
-    margin-top: 80px;
+    margin-top: 40px;
 
     &:first-child {
       margin-top: 0;
@@ -573,10 +573,12 @@ h4 {
   }
 
   .what-you-can-do-container {
+    margin-top: 100px;
     padding: 0 200px;
     font-size: 18px;
     line-height: 32px;
     .action-sub-section {
+      margin-top: 52px;
       flex-wrap: nowrap;
       .col {
         padding: 0;
