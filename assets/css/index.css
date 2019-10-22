@@ -596,7 +596,13 @@ h4 {
     padding: 0;
   }
   .what-you-can-do-container .action-sub-section .description {
+    font-size: 18px;
+    line-height: 32px;
     padding-left: 29px;
+  }
+  .what-you-can-do-container .action-sub-section .description .action-title {
+    font-size: 32px;
+    line-height: 40px;
   }
   .what-you-can-do-container .action-sub-section .action-img-container .action-img {
     width: 320px;
