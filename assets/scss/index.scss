@@ -119,7 +119,7 @@ h4 {
   font-size: 18px;
   line-height: 32px;
   .highlight {
-    font-weight: 800;
+    font-family: "Avenir Next LT Pro Bold";
   }
   .row {
     margin: 0;
@@ -132,10 +132,10 @@ h4 {
 
     .col-img-container {
       .img-trainees {
-        background-image: url("../images/trainees.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        height: 252px;
+        // background-image: url("../images/trainees.jpg");
+        // background-repeat: no-repeat;
+        // background-size: 100% 100%;
+        // height: 252px;
       }
     }
 
@@ -524,14 +524,12 @@ h4 {
       }
       .col-img-container {
         .img-trainees {
-          background-image: url("../images/trainees.png");
+          object-fit: cover;
+          object-position: 50% 0%;
+          width: 100%;
           height: 100%;
         }
       }
-    }
-
-    .img-trainees {
-      height: 100%;
     }
   }
 

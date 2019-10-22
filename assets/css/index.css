@@ -111,7 +111,7 @@ h4 {
   line-height: 32px;
 }
 .main-info .highlight {
-  font-weight: 800;
+  font-family: "Avenir Next LT Pro Bold";
 }
 .main-info .row {
   margin: 0;
@@ -121,12 +121,6 @@ h4 {
   padding: 0 24px;
   font-size: 16px;
   line-height: 26px;
-}
-.main-info .row .col-img-container .img-trainees {
-  background-image: url("../images/trainees.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 252px;
 }
 .main-info .row .col-partnership {
   padding-left: 0;
@@ -531,9 +525,9 @@ h4 {
     line-height: 32px;
   }
   .main-info .row .col-img-container .img-trainees {
-    height: 100%;
-  }
-  .main-info .img-trainees {
+    object-fit: cover;
+    object-position: 50% 0%;
+    width: 100%;
     height: 100%;
   }
 
