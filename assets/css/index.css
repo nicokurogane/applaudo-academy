@@ -88,6 +88,7 @@ h4 {
 }
 .header .above-the-fold .content .header-button {
   width: 200px;
+  height: 40px;
   color: #ffff;
   background-color: #ff4040;
   border: #ffff 1px solid;
@@ -95,8 +96,6 @@ h4 {
   font-family: "Avenir Next LT Pro Demi";
   font-size: 18px;
   line-height: 32px;
-  font-weight: 600;
-  height: 40px;
   border-color: #011625;
 }
 .header .above-the-fold .content .header-button:hover {
@@ -111,7 +110,7 @@ h4 {
   line-height: 32px;
 }
 .main-info .highlight {
-  font-family: "Avenir Next LT Pro Bold";
+  font-family: "Avenir Next LT Pro Demi";
 }
 .main-info .row {
   margin: 0;
@@ -399,13 +398,13 @@ h4 {
 }
 .what-you-can-do-container .action-sub-section .description .action-title {
   color: #011625;
-  font-family: "Avenir Next LT Pro Bold";
   font-size: 22px;
   line-height: 26px;
   align-self: flex-start;
 }
 .what-you-can-do-container .action-sub-section .description .primary-button {
   width: 200px;
+  height: 40px;
   color: #ffff;
   background-color: #ff4040;
   border: #ffff 1px solid;
@@ -421,6 +420,7 @@ h4 {
 }
 .what-you-can-do-container .action-sub-section .description .secondary-button {
   width: 200px;
+  height: 40px;
   color: #ff4040;
   background-color: #ffff;
   border: #ff4040 1px solid;

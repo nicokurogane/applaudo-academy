@@ -1,5 +1,6 @@
 @mixin buttonWithHover($primaryButtonColor, $secondaryButtonColor) {
   width: 200px;
+  height: 40px;
   color: $primaryButtonColor;
   background-color: $secondaryButtonColor;
   border: $primaryButtonColor 1px solid;
@@ -7,6 +8,10 @@
   font-family: "Avenir Next LT Pro Demi";
   font-size: 18px;
   line-height: 32px;
+
+  // .btn {
+  //   font-weight: inherit;
+  // }
 
   &:hover {
     color: $secondaryButtonColor;
