@@ -145,7 +145,6 @@ h4 {
 }
 .make-it-happen .timeline {
   position: relative;
-  max-width: 1200px;
   margin: 70px auto;
   /* Container around content */
 }
@@ -396,7 +395,7 @@ h4 {
 .what-you-can-do-container .row {
   margin: 0;
 }
-.what-you-can-do-container .row .action-img {
+.what-you-can-do-container .row .action-img-container {
   margin: 45px 0 36px 0;
 }
 .what-you-can-do-container .action-sub-section {
@@ -593,8 +592,15 @@ h4 {
   .what-you-can-do-container .action-sub-section {
     flex-wrap: nowrap;
   }
+  .what-you-can-do-container .action-sub-section .col {
+    padding: 0;
+  }
   .what-you-can-do-container .action-sub-section .description {
     padding-left: 29px;
+  }
+  .what-you-can-do-container .action-sub-section .action-img-container .action-img {
+    width: 320px;
+    height: 320px;
   }
 
   .footer-container {

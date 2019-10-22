@@ -160,7 +160,6 @@ h4 {
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
-    max-width: 1200px;
     margin: 70px auto;
 
     &::after {
@@ -408,7 +407,7 @@ h4 {
   }
   .row {
     margin: 0;
-    .action-img {
+    .action-img-container {
       margin: 45px 0 36px 0;
     }
   }
@@ -595,18 +594,24 @@ h4 {
     height: 380px;
     padding: 84px 192px 84px 210px;
     margin-top: 30px;
-    // .brand-container {
-    //   .brand {
-    //   }
-    // }
   }
 
   .what-you-can-do-container {
     padding: 0 200px;
     .action-sub-section {
       flex-wrap: nowrap;
+      .col {
+        padding: 0;
+      }
       .description {
         padding-left: 29px;
+      }
+
+      .action-img-container {
+        .action-img {
+          width: 320px;
+          height: 320px;
+        }
       }
     }
   }
