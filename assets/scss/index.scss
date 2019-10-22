@@ -598,19 +598,22 @@ h4 {
 
   .what-you-can-do-container {
     padding: 0 200px;
+    font-size: 18px;
+    line-height: 32px;
     .action-sub-section {
       flex-wrap: nowrap;
       .col {
         padding: 0;
       }
       .description {
-        font-size: 18px;
-        line-height: 32px;
         .action-title {
           font-size: 32px;
           line-height: 40px;
         }
         padding-left: 29px;
+        .spread-the-word-tag-action {
+          width: 100%;
+        }
       }
 
       .action-img-container {
