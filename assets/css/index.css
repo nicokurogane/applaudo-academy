@@ -599,7 +599,6 @@ h4 {
     padding: 0 200px;
   }
   .what-you-can-do-container .action-sub-section {
-    height: 100%;
     flex-wrap: nowrap;
   }
   .what-you-can-do-container .action-sub-section .col {
@@ -616,7 +615,6 @@ h4 {
   }
   .what-you-can-do-container .action-sub-section .action-img-container .action-img {
     width: 320px;
-    height: 320px;
   }
 
   .footer-container {
