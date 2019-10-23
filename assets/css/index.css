@@ -327,7 +327,7 @@ h4 {
   align-items: center;
   margin: 26px 24px;
 }
-.former-trainees-container .trainee-container .information .testimony {
+.former-trainees-container .trainee-container .information .action-img-container {
   height: 250px;
   font-size: 16px;
   line-height: 26px;
@@ -518,7 +518,7 @@ h4 {
   }
 
   .main-info {
-    margin: 100px 200px 90px 200px;
+    margin: 100px 13.88% 90px 13.88%;
   }
   .main-info .row .col-info-container {
     margin-top: 0;
@@ -539,39 +539,38 @@ h4 {
   }
   .sponsors-container .sponsors-brands {
     height: 100%;
-    padding: 0 200px;
+    padding: 0 13.88%;
   }
   .sponsors-container .sponsors-brands .sponsors-title {
     font-size: 50px;
   }
 
   .former-trainees-container {
-    padding-top: 92px;
+    padding: 92px 13.88% 23px 13.88%;
   }
   .former-trainees-container .section-title {
     margin-bottom: 50px;
   }
-  .former-trainees-container .trainee-container {
-    padding: 0 231px 0 227px;
-  }
-  .former-trainees-container .trainee-container .photo {
+  .former-trainees-container .trainee-container .photo-container .photo {
     width: 320px;
     height: 320px;
   }
   .former-trainees-container .trainee-container .information {
-    margin: 0 0 0 60px;
+    margin: 0;
+    padding: 0 0 0 32px;
   }
   .former-trainees-container .trainee-container .information .testimony {
     height: auto;
     font-size: 18px;
     line-height: 32px;
+    text-align: justify;
   }
   .former-trainees-container .trainee-container .information .name {
     font-size: 22px;
     line-height: 26px;
   }
   .former-trainees-container .trainee-container .reverse {
-    margin: 0 20px 0 0;
+    padding: 0 32px 0 0;
   }
 
   .working-brands-container {

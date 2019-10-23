@@ -324,7 +324,7 @@ h4 {
       justify-content: center;
       align-items: center;
       margin: 26px 24px;
-      .testimony {
+      .action-img-container {
         height: 250px; //test this
         font-size: 16px;
         line-height: 26px;
@@ -504,7 +504,7 @@ h4 {
   }
 
   .main-info {
-    margin: 100px 200px 90px 200px;
+    margin: 100px 13.88% 90px 13.88%;
 
     .row {
       .col-info-container {
@@ -529,7 +529,7 @@ h4 {
     padding: 0;
     .sponsors-brands {
       height: 100%;
-      padding: 0 200px;
+      padding: 0 13.88%;
       .sponsors-title {
         font-size: 50px;
       }
@@ -537,26 +537,30 @@ h4 {
   }
 
   .former-trainees-container {
-    padding-top: 92px;
+    // padding-top: 92px;
+    padding: 92px 13.88% 23px 13.88%;
 
     .section-title {
       margin-bottom: 50px;
     }
 
     .trainee-container {
-      padding: 0 231px 0 227px;
-
-      .photo {
-        width: 320px;
-        height: 320px;
+      .photo-container {
+        .photo {
+          width: 320px;
+          height: 320px;
+        }
       }
+
       .information {
-        margin: 0 0 0 60px;
+        margin: 0;
+        padding: 0 0 0 32px;
 
         .testimony {
           height: auto; //test this
           font-size: 18px;
           line-height: 32px;
+          text-align: justify;
         }
         .name {
           font-size: 22px;
@@ -564,7 +568,7 @@ h4 {
         }
       }
       .reverse {
-        margin: 0 20px 0 0;
+        padding: 0 32px 0 0;
       }
     }
   }
