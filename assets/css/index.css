@@ -372,14 +372,18 @@ h4 {
   text-align: center;
   font-size: 32px;
   line-height: 56px;
+  margin-bottom: 55px;
 }
 .working-brands-container .title h2 {
   text-align: center;
   font-size: 50px;
+  margin-bottom: 58px;
 }
 .working-brands-container .brand-container .brand {
-  margin: 45px 0;
   padding: 0;
+}
+.working-brands-container .brand-container .brand .logo {
+  margin-bottom: 45px;
 }
 
 .what-you-can-do-container {
@@ -589,6 +593,9 @@ h4 {
     height: 380px;
     padding: 84px 192px 84px 210px;
     margin-top: 30px;
+  }
+  .working-brands-container .brand-container .logo {
+    margin-bottom: 36px;
   }
 
   .what-you-can-do-container {
