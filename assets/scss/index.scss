@@ -534,17 +534,25 @@ h4 {
   .sponsors-container {
     height: 348px;
     padding: 0;
-    .sponsors-brands {
-      height: 100%;
-      padding: 0 13.88%;
+
+    .title-container {
+      margin-bottom: 64px;
+      padding-top: 81px;
       .sponsors-title {
         font-size: 50px;
+      }
+    }
+
+    .sponsors-brands {
+      padding: 0 13.88%;
+
+      .brand {
+        margin-bottom: 0px;
       }
     }
   }
 
   .former-trainees-container {
-    // padding-top: 92px;
     padding: 92px 13.88% 23px 13.88%;
 
     .section-title {
