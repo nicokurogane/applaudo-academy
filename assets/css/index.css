@@ -295,14 +295,20 @@ h4 {
   margin-top: 68px;
   padding: 43px 86px 70px 86px;
 }
+.sponsors-container .title-container {
+  margin-bottom: 93px;
+}
+.sponsors-container .title-container .sponsors-title {
+  font-size: 32px;
+}
 .sponsors-container .sponsors-brands .col {
   padding: 0;
 }
-.sponsors-container .sponsors-brands .sponsors-title {
-  font-size: 32px;
-}
 .sponsors-container .sponsors-brands .brand {
-  margin: 45px 0;
+  margin-bottom: 45px;
+}
+.sponsors-container .sponsors-brands .brand:last-child {
+  margin-bottom: 0;
 }
 
 .former-trainees-container {

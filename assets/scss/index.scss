@@ -286,18 +286,25 @@ h4 {
   background-color: $backgroundColor;
   color: $primaryColor;
   margin-top: 68px;
-
   padding: 43px 86px 70px 86px;
+
+  .title-container {
+    margin-bottom: 93px;
+    .sponsors-title {
+      font-size: 32px;
+    }
+  }
 
   .sponsors-brands {
     .col {
       padding: 0;
     }
-    .sponsors-title {
-      font-size: 32px;
-    }
+
     .brand {
-      margin: 45px 0;
+      margin-bottom: 45px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
