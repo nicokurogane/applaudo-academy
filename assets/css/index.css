@@ -166,28 +166,38 @@ h4 {
   /* The circles on the timeline */
 }
 .make-it-happen .timeline .time-line-container .spot {
+  font-family: "Avenir Next LT Pro Regular";
+  font-weight: 600;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
   background-color: #ededed;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
   display: flex;
   justify-content: center;
-  right: -14px;
+  right: -17px;
 }
 .make-it-happen .timeline .time-line-container .spot-reverse {
+  font-family: "Avenir Next LT Pro Regular";
+  font-weight: 600;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
   background-color: #ededed;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
   display: flex;
   justify-content: center;
-  left: -10px;
+  left: -16px;
 }
 .make-it-happen .timeline .time-line-container .content {
   color: white;
@@ -195,6 +205,8 @@ h4 {
   height: 100%;
 }
 .make-it-happen .timeline .time-line-container .content .title {
+  font-size: 32px;
+  line-height: 40px;
   padding: 12px 10px;
   margin: 0;
   background-color: #ff4040;
@@ -242,28 +254,38 @@ h4 {
     margin-top: 24px;
   }
   .make-it-happen .timeline .time-line-container .spot {
+    font-family: "Avenir Next LT Pro Regular";
+    font-weight: 600;
     position: absolute;
-    width: 25px;
-    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
     background-color: #ededed;
     top: 15px;
     border-radius: 50%;
     z-index: 100;
     display: flex;
     justify-content: center;
-    left: 20px;
+    left: 15px;
   }
   .make-it-happen .timeline .time-line-container .spot-reverse {
+    font-family: "Avenir Next LT Pro Regular";
+    font-weight: 600;
     position: absolute;
-    width: 25px;
-    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
     background-color: #ededed;
     top: 15px;
     border-radius: 50%;
     z-index: 100;
     display: flex;
     justify-content: center;
-    margin-left: 29px;
+    margin-left: 31px;
   }
   .make-it-happen .timeline .time-line-container:first-child {
     margin-top: 0;
@@ -272,6 +294,8 @@ h4 {
     width: 75vw;
   }
   .make-it-happen .timeline .time-line-container .content .title {
+    font-size: 22px;
+    line-height: 26px;
     padding: 16px 13px;
   }
   .make-it-happen .timeline .time-line-container .content .description {

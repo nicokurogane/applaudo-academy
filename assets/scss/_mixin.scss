@@ -9,10 +9,6 @@
   font-size: 18px;
   line-height: 32px;
 
-  // .btn {
-  //   font-weight: inherit;
-  // }
-
   &:hover {
     color: $secondaryButtonColor;
     background-color: $primaryButtonColor;
@@ -21,9 +17,14 @@
 }
 
 @mixin spot($reverse, $isMobile) {
+  font-family: "Avenir Next LT Pro Regular";
+  font-weight: 600;
   position: absolute;
-  width: 25px;
-  height: 25px;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  width: 32px;
+  height: 32px;
 
   background-color: $mediumGray;
   top: 15px;
@@ -32,13 +33,13 @@
   display: flex;
   justify-content: center;
   @if ($reverse and not $isMobile) {
-    left: -10px;
+    left: -16px;
   } @else if(not $reverse and not $isMobile) {
-    right: -14px;
+    right: -17px;
   } @else if(not $reverse and $isMobile) {
-    left: 20px;
+    left: 15px;
   } @else {
-    margin-left: 29px;
+    margin-left: 31px;
   }
 }
 

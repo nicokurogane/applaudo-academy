@@ -185,6 +185,8 @@ h4 {
         width: 75%;
         height: 100%;
         .title {
+          font-size: 32px;
+          line-height: 40px;
           padding: 12px 10px;
           margin: 0;
           background-color: $primaryColor;
@@ -255,6 +257,8 @@ h4 {
           // margin-bottom: 28px;
           width: 75vw;
           .title {
+            font-size: 22px;
+line-height: 26px;
             padding: 16px 13px;
           }
           .description {
@@ -331,7 +335,7 @@ h4 {
       justify-content: center;
       align-items: center;
       margin: 26px 24px;
-      .testimony{
+      .testimony {
         height: 200px;
       }
       .name {
