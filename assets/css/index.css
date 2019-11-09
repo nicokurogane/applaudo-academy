@@ -333,11 +333,8 @@ h4 {
   align-items: center;
   margin: 26px 24px;
 }
-.former-trainees-container .trainee-container .information .action-img-container {
-  height: 250px;
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 8px;
+.former-trainees-container .trainee-container .information .testimony {
+  height: 200px;
 }
 .former-trainees-container .trainee-container .information .name {
   color: #011625;
