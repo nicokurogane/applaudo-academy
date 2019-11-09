@@ -600,7 +600,7 @@ h4 {
 
   .what-you-can-do-container {
     margin-top: 100px;
-    padding: 0 200px;
+    padding: 0 13.88%;
     font-size: 18px;
     line-height: 32px;
   }
@@ -612,7 +612,7 @@ h4 {
     padding: 0;
   }
   .what-you-can-do-container .action-sub-section .description {
-    padding-left: 29px;
+    margin: 0;
   }
   .what-you-can-do-container .action-sub-section .description .action-title {
     font-size: 32px;
@@ -621,12 +621,18 @@ h4 {
   .what-you-can-do-container .action-sub-section .description .spread-the-word-tag-action {
     width: 100%;
   }
+  .what-you-can-do-container .action-sub-section .normal-row {
+    padding-left: 34px;
+  }
+  .what-you-can-do-container .action-sub-section .reversed-row {
+    padding-right: 34px;
+  }
   .what-you-can-do-container .action-sub-section .action-img-container .action-img {
     width: 320px;
   }
 
   .footer-container {
-    padding: 0 201px 0 196px;
+    padding: 0 13.88%;
   }
   .footer-container .powered-by-container {
     padding: 0;

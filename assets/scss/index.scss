@@ -608,7 +608,7 @@ h4 {
 
   .what-you-can-do-container {
     margin-top: 100px;
-    padding: 0 200px;
+    padding: 0 13.88%;
     font-size: 18px;
     line-height: 32px;
     .action-sub-section {
@@ -618,14 +618,21 @@ h4 {
         padding: 0;
       }
       .description {
+        margin: 0;
         .action-title {
           font-size: 32px;
           line-height: 40px;
         }
-        padding-left: 29px;
         .spread-the-word-tag-action {
           width: 100%;
         }
+      }
+
+      .normal-row {
+        padding-left: 34px;
+      }
+      .reversed-row {
+        padding-right: 34px;
       }
 
       .action-img-container {
@@ -637,7 +644,7 @@ h4 {
   }
 
   .footer-container {
-    padding: 0 201px 0 196px;
+    padding: 0 13.88%;
     .powered-by-container {
       padding: 0;
     }
